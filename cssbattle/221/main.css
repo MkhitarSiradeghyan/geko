@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #3f4869;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.circle {
+  width: 180px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+}
+.top {
+    left: 60px;
+  background: conic-gradient(from 90deg, transparent 180deg, #f4da64 180deg);
+}
+
+.bottom {
+    left: 60px;
+  background: conic-gradient(from 90deg, #f4da64 180deg, transparent 180deg);
+}
+
+.red {
+    right: 60px;
+    background: #E25C57;
+}
