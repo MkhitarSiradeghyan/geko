@@ -1,17 +1,17 @@
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  background: #3f4869;
+  position: relative;
   width: 400px;
   height: 300px;
-  position: relative;
+  background: #3F4869;
 }
 
-.circle {
+.klor {
   width: 180px;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
@@ -19,17 +19,18 @@
   top: 50%;
   translate: 0 -50%;
 }
-.top {
-    left: 60px;
-  background: conic-gradient(from 90deg, transparent 180deg, #f4da64 180deg);
+.k1 {
+  background: #F4DA64;
+  left: 60px;
 }
-
-.bottom {
-    left: 60px;
-  background: conic-gradient(from 90deg, #f4da64 180deg, transparent 180deg);
+.k2 {
+  background: #E25C57;
+  right: 60px;
 }
-
-.red {
-    right: 60px;
-    background: #E25C57;
+.k3 {
+  background: linear-gradient(
+    transparent 50%,
+    #F4DA64 50%
+  );
+  left: 60px;
 }
